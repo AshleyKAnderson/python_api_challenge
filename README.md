@@ -57,3 +57,20 @@ To succeed on this deliverable of the assignment, open the VacationPy.ipynb star
 
 ![Screenshot 2024-02-11 at 2 00 05 PM](https://github.com/AshleyKAnderson/python_api_challenge/assets/151413928/0bc753db-44b6-472b-9c67-e83576acdb82)
 
+2. Narrow down the city_data_df DataFrame to find your ideal weather condition. For example:
+
+- A max temperature lower than 27 degrees but higher than 21
+
+- Wind speed less than 4.5 m/s
+
+- Zero cloudiness
+
+
+3. Create a new DataFrame called hotel_df to store the city, country, coordinates, and humidity.
+
+4. For each city, use the Geoapify API to find the first hotel located within 10,000 meters of your coordinates.
+
+5 Add the hotel name and the country as additional information in the hover message for each city on the map as in the following image:
+
+![Screenshot 2024-02-11 at 2 02 32 PM](https://github.com/AshleyKAnderson/python_api_challenge/assets/151413928/a6f0dd39-901a-410c-8b9c-59d262f60aca)
+
